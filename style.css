@@ -11,12 +11,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-         
- }
+    padding-bottom: 25px;
+    border-bottom: 1px solid;
+    border-color: rgb(197, 189, 189);
+        }
+
+.rightcontent ul a {
+    margin-left: 15px;
+}
 
  .rightcontent {
      margin-right: 40px;
+
  }
 
  .shop
