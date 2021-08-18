@@ -2,6 +2,29 @@
     Here you put styles that modify the original behavior CSS/HTML had,
     for example: list elements come with a little circle that nobody uses anymore.
  */
+ body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: white;
+ }
+
+ .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+         
+ }
+
+ .rightcontent {
+     margin-right: 40px;
+ }
+
+ .shop
+  {
+     padding-left: 20px;
+     padding-top: 20px;
+     padding-bottom: 60px;
+      }
 ul{margin: 0; padding:0;}
 ul li{list-style: none;}
 
@@ -10,10 +33,6 @@ ul li{list-style: none;}
     for example: .horizontal, .container, .p-1 (for padding one)
 */
 .p-1{ padding: 10px; }
-
-
-
-
 /* 
     SPECIFIC TO YOUR WEBSITE 
     The more senior you become the less you have specific styles
