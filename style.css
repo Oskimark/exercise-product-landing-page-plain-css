@@ -1,45 +1,49 @@
-/* RESETS
-    Here you put styles that modify the original behavior CSS/HTML had,
-    for example: list elements come with a little circle that nobody uses anymore.
- */
- body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: white;
- }
-
+   body {
+     background-color: white;
+    font-family: Arial, Helvetica, sans-serif; S
+        }
+          
  .top {
-    display: flex;
+           display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     border-bottom: 1px solid;
+    padding-top: 20px;
     border-color: rgb(197, 189, 189);
         }
 
-.rightcontent ul a {
-    margin-left: 15px;
+        .flex-container {
+            display: flex;
+            
+        }
+
+        .shops {
+padding-left: 20px;
 }
 
- .rightcontent {
-     margin-right: 40px;
+.rightcontent {
+margin-right: 5px;
+}
 
- }
-
- .shop
-  {
+.rightcontent ul a {
+    margin-left: 28px;
+}
+ 
+ .home {
      padding-left: 20px;
-     padding-top: 20px;
-     padding-bottom: 60px;
-      }
+ }
+  .home ul a 
+{
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
 ul{margin: 0; padding:0;}
 ul li{list-style: none;}
 
-/* 
-    BEHAVIORAL STYLES
-    for example: .horizontal, .container, .p-1 (for padding one)
-*/
-.p-1{ padding: 10px; }
-/* 
-    SPECIFIC TO YOUR WEBSITE 
-    The more senior you become the less you have specific styles
-*/
